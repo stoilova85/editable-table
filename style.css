@@ -1,0 +1,60 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    /* background-color: red;
+    border: 1px solid #fff; */
+}
+
+.center {
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    outline: none;
+}
+
+.table-responsive {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+
+/* MAKE COLUMNS FROZEN */
+
+.scrollable-table {
+    position: relative;
+}
+
+.frozen-left {
+    position: absolute;
+    width: 120px;
+}
+
+.frozen-right {
+    position: absolute;
+    right: 0;
+    width: 220px;
+}
+
+.fluid {
+    margin-left: 119px;
+    margin-right: 219px;
+    overflow-x: auto;
+}
+
+.hidden {}
